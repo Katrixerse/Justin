@@ -74,7 +74,7 @@ module.exports = {
                         part: 'snippet',
                         //order: 'relevance',
                         //videoDuration: 'medium',
-                        key: "AIzaSyCmDVsJz3KDdRmdD6M_bjQ01UJmfmRkc9c"
+                        key: "Your api key"
                     });
                 if (!body.items.length) return message.channel.send('No results found for ' + query + ".");
                 const output = `[1] - ${body.items[0].snippet.title}.\n[2] - ${body.items[1].snippet.title}.\n[3] - ${body.items[2].snippet.title}.\n[4] - ${body.items[3].snippet.title}.\n[5] - ${body.items[4].snippet.title}.\n# Type exit or none to cancel the command.`;
