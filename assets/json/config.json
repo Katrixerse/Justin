@@ -2,6 +2,6 @@
     "token": "Your token",
     "nytimesapi": "Your token",
     "Google_API_Key": "Your token",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "djs_version": "11.4.2"
 }
